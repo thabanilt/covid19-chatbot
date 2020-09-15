@@ -14,7 +14,7 @@ import os
 
 
 
-client=MongoClient("mongodb://lex:warumwa@cluster0-shard-00-00-lct7x.mongodb.net:27017,cluster0-shard-00-01-lct7x.mongodb.net:27017,cluster0-shard-00-02-lct7x.mongodb.net:27017/corona?ssl=true&replicaSet=Cluster0-shard-0&authSource=admin&retryWrites=true&w=majority")
+client=MongoClient("")
 db=client["corona"]
 collection=db["corona"]
 collections=db["report"]
